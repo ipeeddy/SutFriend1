@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Sut Friend</string>
+    <string name="register">สมัครสมาชิก</string>
+    <string name="descrip">กรุณาใส่ข้อมูลให้ครบ</string>
+
 </resources>

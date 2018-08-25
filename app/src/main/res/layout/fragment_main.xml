@@ -6,6 +6,7 @@
 
     <!--Content-->
     <LinearLayout
+        android:background="@drawable/clear_big"
         android:layout_margin="20dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -13,11 +14,15 @@
 
         <!--Logo-->
         <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <!--User-->
         <EditText
+            android:textSize="@dimen/h3"
+            android:background="@drawable/textfield_email"
             android:inputType="textEmailAddress"
             android:hint="Email :"
             android:layout_width="match_parent"
@@ -25,6 +30,8 @@
 
         <!--Password-->
         <EditText
+            android:background="@drawable/textfield_password"
+            android:textSize="@dimen/h3"
             android:inputType="textPassword"
             android:hint="Password :"
             android:layout_width="match_parent"
