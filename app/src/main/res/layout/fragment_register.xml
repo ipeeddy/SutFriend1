@@ -58,7 +58,7 @@
                 android:id="@+id/edtPassword"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/textfield_password"
-                android:inputType="text"
+                android:inputType="textEmailAddress"
                 android:hint="Password :"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
