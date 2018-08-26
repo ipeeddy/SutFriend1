@@ -6,7 +6,7 @@
         app:showAsAction="always"
         android:icon="@drawable/ic_action_uplaod"
         android:id="@+id/itemUpload"
-        android:title="Upload"
+        android:title="Upload"/>
 
 
 </menu>

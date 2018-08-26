@@ -26,13 +26,16 @@
 
             <!--Avata-->
             <ImageView
+                android:scaleType="centerInside"
+                android:id="@+id/imvAvata"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/avata"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
 
             <!--Name-->
             <EditText
+                android:id="@+id/edtName"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/textfield_name"
                 android:inputType="text"
@@ -42,6 +45,7 @@
 
             <!--User-->
             <EditText
+                android:id="@+id/edtEmail"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/textfield_email"
                 android:inputType="text"
@@ -51,6 +55,7 @@
 
             <!--Password-->
             <EditText
+                android:id="@+id/edtPassword"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/textfield_password"
                 android:inputType="text"
